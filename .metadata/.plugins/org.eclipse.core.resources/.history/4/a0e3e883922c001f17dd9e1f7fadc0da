@@ -1,0 +1,29 @@
+package findmaxnmin;
+
+public class LinkedList {
+	private Node head;
+
+	public LinkedList() {
+		super();
+		this.head = null;
+	}
+
+	public Node getHead() {
+		return head;
+	}
+	
+
+	public void setHead(Node head) {
+		this.head = head;
+	}
+
+	public int max() {
+		Node newnode = new Node(0);
+		if (newnode == null) {
+			return -1;
+		}
+		if(newnode.getNext())
+		return 1;
+	}
+
+}

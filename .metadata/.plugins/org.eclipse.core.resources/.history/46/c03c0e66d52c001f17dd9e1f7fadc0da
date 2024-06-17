@@ -1,0 +1,45 @@
+package com.ll;
+
+public class LinkedList {
+	Node head;
+
+	public class Node {
+		int data;
+		Node next;
+
+		Node(int data) {
+			this.data = data;
+			this.next = null;
+		}
+
+	}
+
+	public void addFirst(int data) {
+		Node newnode = new Node(data);
+		if (head == null) {
+			head = newnode;
+			return;
+		}
+		newnode.next = head;
+		head = newnode;
+	}
+
+	public void print() {
+		if (head == null) {
+			System.out.println("List is Empty!!");
+		}
+		Node currNode = head;
+		while (currNode!= null) {
+			System.out.println(currNode.data + " ");
+			currNode=currNode.next;
+		}
+	}
+
+	public static void main(String[] args) {
+		LinkedList list = new LinkedList();
+		list.addFirst(1);
+		list.addFirst(2);
+		list.addFirst(4);
+	}
+
+}

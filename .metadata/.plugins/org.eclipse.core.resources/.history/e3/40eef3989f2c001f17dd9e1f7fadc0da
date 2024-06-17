@@ -1,0 +1,7 @@
+package com.product;
+
+public class Node {
+	private Product p;
+	private Node next;
+
+}

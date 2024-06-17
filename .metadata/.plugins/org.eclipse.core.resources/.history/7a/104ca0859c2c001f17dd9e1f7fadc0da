@@ -1,0 +1,14 @@
+package findmaxnmin;
+
+public class Tester {
+
+	public static void main(String[] args) {
+		LinkedList ll = new LinkedList();
+		Node newnode = new Node();
+		ll.insert(8);
+		ll.insert(1);
+		System.out.println(ll);
+
+	}
+
+}

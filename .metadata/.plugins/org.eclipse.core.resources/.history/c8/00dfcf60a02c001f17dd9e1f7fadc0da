@@ -1,0 +1,5 @@
+package com.product;
+
+public class LinkedList {
+private Node next;
+}

@@ -1,0 +1,13 @@
+package com.product;
+
+public class Tester {
+
+	public static void main(String[] args) {
+		LinkedList ll = new LinkedList();
+		Product p = new Product(1, "Parle-G", 12, 15);
+		ll.insert(p);
+		
+
+	}
+
+}

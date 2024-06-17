@@ -1,0 +1,28 @@
+package com.product;
+
+public class LinkedList {
+	private Node next;
+
+	public LinkedList() {
+		super();
+		this.next = null;
+	}
+
+	public Node getNext() {
+		return next;
+	}
+
+	public void setNext(Node next) {
+		this.next = next;
+	}
+
+	public void insert(Product p) {
+		Node product = new Node(p);
+//		LinkedList ll = new LinkedList(product);
+//		while (ll.getNext() != null) {
+		LinkedList list = product;
+		product.getNext();
+		System.out.println(p);
+		return;
+	}
+}

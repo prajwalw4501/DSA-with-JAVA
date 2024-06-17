@@ -1,0 +1,12 @@
+package com.product;
+
+public class LinkedList {
+	private Node next;
+
+	public LinkedList(Node next) {
+		super();
+		this.next = null;
+	}
+	
+	
+}

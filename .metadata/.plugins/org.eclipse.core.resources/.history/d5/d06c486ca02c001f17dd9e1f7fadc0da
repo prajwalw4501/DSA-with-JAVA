@@ -1,0 +1,14 @@
+package com.product;
+
+public class Tester {
+
+	public static void main(String[] args) {
+		Product p = new Product(1, "Parle-G", 12, 15);
+		Node newproduct = new Node(p);
+		while(newproduct!=null) {
+			return;
+		}
+
+	}
+
+}

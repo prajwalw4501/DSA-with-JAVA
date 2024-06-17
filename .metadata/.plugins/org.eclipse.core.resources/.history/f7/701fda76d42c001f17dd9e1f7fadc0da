@@ -1,0 +1,32 @@
+package com.ll;
+
+public class LinkedList {
+	Node head;
+
+	public class Node {
+		int data;
+		Node next;
+
+		Node(int data) {
+			this.data = data;
+			this.next = null;
+		}
+
+	}
+
+	public void addFirst(int data) {
+		Node newnode=new Node(data);
+		if(head==null) {
+			head=newnode;
+			return;
+		}
+		newnode.next=head;
+		head=newnode;
+	}
+
+	public static void main(String[] args) {
+		LinkedList list = new LinkedList();
+
+	}
+
+}

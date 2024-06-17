@@ -1,0 +1,15 @@
+package com.product;
+
+public class Node {
+	private Product p;
+	private Node next;
+	
+	public Node(Product p) {
+		super();
+		this.p = p;
+		this.next = null;
+	}
+	
+	
+
+}

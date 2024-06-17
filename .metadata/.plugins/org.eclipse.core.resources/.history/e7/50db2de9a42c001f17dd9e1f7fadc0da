@@ -1,0 +1,21 @@
+package com.product;
+
+public class Tester {
+
+	public static void main(String[] args) {
+		LinkedList ll = new LinkedList();
+		LinkedList l2 = new LinkedList();
+		Product p1 = new Product(1, "Parle-G", 12, 15);
+		Product p2 = new Product(2, "chips", 20, 10);
+		Product p3 = new Product(3, "jam", 100, 65);
+		ll = ll.insert(p1);
+		ll = ll.insert(p2);
+		ll = ll.insert(p3);
+		while (ll.getNext() != null) {
+			System.out.println(ll.toString());
+			ll.setNext(ll.getNext());
+		}
+
+	}
+
+}

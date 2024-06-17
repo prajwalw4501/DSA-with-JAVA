@@ -1,0 +1,29 @@
+package com.product;
+
+public class Node {
+	private Product p;
+	private Node next;
+
+	public Node(Product p) {
+		super();
+		this.p = p;
+		this.next = null;
+	}
+
+	public Product getP() {
+		return p;
+	}
+
+	public void setP(Product p) {
+		this.p = p;
+	}
+
+	public Node getNext() {
+		return next;
+	}
+
+	public void setNext(Node next) {
+		this.next = next;
+	}
+
+}
